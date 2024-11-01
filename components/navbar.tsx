@@ -27,6 +27,7 @@ import {
   Logo,
 } from "@/components/icons";
 import {Autocomplete, AutocompleteItem, Avatar} from "@nextui-org/react";
+import ConnectButton from "./wallet-modal";
 
 export const Navbar = () => {
   const searchInput = (
@@ -107,12 +108,7 @@ export const Navbar = () => {
           </Button>
         </NavbarItem>
         <NavbarItem className="hidden md:flex">
-          <Button
-          startContent={<Avatar alt="Wallet" className="w-8 h-8" src="./wallet.svg" />}
-          variant="shadow"
-          >
-            Connect
-          </Button>
+          <ConnectButton />
         </NavbarItem>
       </NavbarContent>
 

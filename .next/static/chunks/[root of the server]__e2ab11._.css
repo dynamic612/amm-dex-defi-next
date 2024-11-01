@@ -544,10 +544,6 @@ img, video {
   order: 3;
 }
 
-.row-span-1 {
-  grid-row: span 1 / span 1;
-}
-
 .-m-2 {
   margin: -.5rem;
 }
@@ -558,14 +554,6 @@ img, video {
 
 .m-0 {
   margin: 0;
-}
-
-.m-4 {
-  margin: 1rem;
-}
-
-.m-1 {
-  margin: .25rem;
 }
 
 .-mx-1 {
@@ -803,6 +791,10 @@ img, video {
   height: .875rem;
 }
 
+.h-32 {
+  height: 8rem;
+}
+
 .h-4 {
   height: 1rem;
 }
@@ -878,10 +870,6 @@ img, video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-32 {
-  height: 8rem;
 }
 
 .max-h-64 {
@@ -1058,10 +1046,6 @@ img, video {
   width: 100vw;
 }
 
-.w-2\/3 {
-  width: 66.6667%;
-}
-
 .min-w-10 {
   min-width: 2.5rem;
 }
@@ -1118,6 +1102,10 @@ img, video {
   min-width: 200px;
 }
 
+.min-w-\[400\] {
+  min-width: 400px;
+}
+
 .min-w-full {
   min-width: 100%;
 }
@@ -1130,14 +1118,6 @@ img, video {
 .min-w-min {
   min-width: -moz-min-content;
   min-width: min-content;
-}
-
-.min-w-\[600\] {
-  min-width: 600px;
-}
-
-.min-w-\[400\] {
-  min-width: 400px;
 }
 
 .max-w-2xl {
@@ -1211,18 +1191,6 @@ img, video {
 
 .max-w-xs {
   max-width: 20rem;
-}
-
-.max-w-96 {
-  max-width: 24rem;
-}
-
-.max-w-\[\] {
-  max-width: ;
-}
-
-.max-w-\[600\] {
-  max-width: 600px;
 }
 
 .flex-1 {
@@ -1492,14 +1460,6 @@ img, video {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
-.grid-rows-2 {
-  grid-template-rows: repeat(2, minmax(0, 1fr));
-}
-
-.grid-rows-3 {
-  grid-template-rows: repeat(3, minmax(0, 1fr));
-}
-
 .flex-row {
   flex-direction: row;
 }
@@ -1532,10 +1492,6 @@ img, video {
   place-items: end;
 }
 
-.place-items-baseline {
-  place-items: baseline;
-}
-
 .items-start {
   align-items: flex-start;
 }
@@ -1546,10 +1502,6 @@ img, video {
 
 .items-center {
   align-items: center;
-}
-
-.items-baseline {
-  align-items: baseline;
 }
 
 .justify-start {
@@ -1566,14 +1518,6 @@ img, video {
 
 .justify-between {
   justify-content: space-between;
-}
-
-.justify-stretch {
-  justify-content: stretch;
-}
-
-.justify-items-center {
-  justify-items: center;
 }
 
 .\!gap-0 {
@@ -1722,6 +1666,10 @@ img, video {
   border-radius: .25rem;
 }
 
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
 .rounded-\[calc\(theme\(borderRadius\.large\)\/1\.5\)\] {
   border-radius: calc(var(--nextui-radius-large) / 1.5);
 }
@@ -1776,10 +1724,6 @@ img, video {
 
 .rounded-xl {
   border-radius: .75rem;
-}
-
-.rounded-2xl {
-  border-radius: 1rem;
 }
 
 .\!rounded-e-none {
@@ -2595,6 +2539,11 @@ img, video {
   font-family: var(--font-sans);
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -2659,11 +2608,6 @@ img, video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .font-bold {

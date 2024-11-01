@@ -75,7 +75,7 @@ __turbopack_esm__({
 });
 const tokens = [
     {
-        key: "cat",
+        key: "ETH",
         label: "Cat"
     },
     {

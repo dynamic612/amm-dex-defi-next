@@ -1,5 +1,5 @@
 export const tokens = [
-    {key: "cat", label: "Cat"},
+    {key: "ETH", label: "Cat"},
     {key: "dog", label: "Dog"},
     {key: "elephant", label: "Elephant"},
     {key: "lion", label: "Lion"},
