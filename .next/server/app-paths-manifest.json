@@ -1,6 +1,6 @@
 {
-  "/uniswap/page": "app/uniswap/page.js",
   "/page": "app/page.js",
+  "/uniswap/page": "app/uniswap/page.js",
   "/pool/page": "app/pool/page.js",
   "/blog/page": "app/blog/page.js",
   "/about/page": "app/about/page.js"
