@@ -1,7 +1,6 @@
 'use client';
 import { Input } from "@nextui-org/input";
 import SelectTokens from "./selectToken";
-import { Select } from "@nextui-org/react";
 
 export default function Swap(props) {
 
